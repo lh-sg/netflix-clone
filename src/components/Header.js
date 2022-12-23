@@ -17,8 +17,7 @@ function Header() {
   }, []);
 
   return (
-    // <HeaderContainer dark={isDark}>
-    <HeaderContainer>
+    <HeaderContainer dark={isDark}>
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/6/67/NewNetflixLogo.png"
         alt=""

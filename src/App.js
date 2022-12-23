@@ -15,7 +15,7 @@ const endpoints = {
   upcoming: "/movie/upcoming",
 };
 
-let heroMovie = ''
+// let heroMovie = ''
 
 function App() {
   const [originals,setOriginals] = useState([]);
