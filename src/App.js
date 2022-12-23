@@ -25,15 +25,15 @@ function App() {
   const [top_rated,setTopRated] = useState([]);
   const [upcoming,setUpcoming] = useState([]);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      heroMovie = trending[Math.floor(Math.random() * trending.length)];
-      console.log(heroMovie);
-    },3000);
-    return () => {
-      clearInterval(interval);
-    }
-  },[]);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     heroMovie = trending[Math.floor(Math.random() * trending.length)];
+  //     console.log(heroMovie);
+  //   },3000);
+  //   return () => {
+  //     clearInterval(interval);
+  //   }
+  // },[]);
 
   useEffect(() => {
     axios
